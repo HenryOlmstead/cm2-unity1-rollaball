@@ -8,7 +8,7 @@ public class CubeScript : MonoBehaviour
     void Update()
     {
         //Rotate cube on x axis
-        transform.Rotate(new Vector3(1, 0, 0));
+        transform.Rotate(new Vector3(0, 1, 0));
     }
 
     void OnTriggerEnter()
